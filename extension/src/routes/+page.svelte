@@ -157,7 +157,7 @@
           2. Run Command (Terminal/PowerShell):
         </p>
 
-        {#if navigator.appVersion.indexOf("Win") != -1}
+        {#if navigator.appVersion.includes("Win")}
           <!-- Windows Command -->
           <button
             class="group relative w-full rounded bg-slate-950 p-2 text-left font-mono text-[10px] break-all text-slate-300"
