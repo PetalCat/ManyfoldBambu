@@ -375,4 +375,14 @@
       </span>
     {/if}
   </div>
+
+  <div class="mt-2 text-center">
+    <a
+      href="https://github.com/PetalCat/ManyfoldBambu/blob/main/PRIVACY.md"
+      target="_blank"
+      class="text-[10px] text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400"
+    >
+      Privacy Policy
+    </a>
+  </div>
 </main>
