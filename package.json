@@ -8,9 +8,10 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint . --flag=v10_config_lookup_from_file --max-warnings=0",
-    "build": "pnpm --filter wxt-sveltekit-example build",
-    "dev": "pnpm --filter wxt-sveltekit-example dev",
-    "dev:edge": "pnpm --filter wxt-sveltekit-example dev:edge"
+    "build": "pnpm --filter manyfold2bambu build",
+    "dev": "pnpm --filter manyfold2bambu dev",
+    "dev:edge": "pnpm --filter manyfold2bambu dev:edge",
+    "zip": "pnpm --filter manyfold2bambu zip"
   },
   "devDependencies": {
     "@eslint/compat": "catalog:dev",

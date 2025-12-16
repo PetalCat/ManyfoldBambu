@@ -1,5 +1,5 @@
 packages:
-  - example/
+  - extension/
   - packages/*
 
 autoInstallPeers: false

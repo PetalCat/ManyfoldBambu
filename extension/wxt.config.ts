@@ -28,7 +28,7 @@ export default defineConfig({
     },
   },
   manifest: {
-    name: "Open in Bambu Studio",
+    name: "ManyFold2Bambu",
     icons: {
       16: "/logo.png",
       32: "/logo.png",
