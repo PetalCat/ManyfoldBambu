@@ -6,6 +6,28 @@
 
     <title>SvelteKit ❤️ WXT</title>
     <meta name="manifest.type" content="browser_action" />
+    <style>
+      html,
+      body {
+        width: 340px;
+        margin: 0;
+        padding: 0;
+        /* Ensure background matches the theme to avoid flashes */
+        background-color: #ffffff;
+        min-height: 400px;
+      }
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background-color: #0f172a; /* matches slate-900 */
+          color: white;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="bg-white dark:bg-slate-900">
+    <div id="app-loading" style="padding: 20px; text-align: center">
+      Loading Extension...
+    </div>
+  </body>
 </html>
