@@ -82,7 +82,7 @@
   function downloadHost() {
     // URL to the raw file on GitHub
     const url =
-      "https://github.com/PetalCat/ManyfoldBambu/raw/main/example/public/host.zip";
+      "https://github.com/PetalCat/ManyfoldBambu/raw/main/extension/public/host.zip";
     const a = document.createElement("a");
     a.href = url;
     a.download = "manyfold-bambu-host.zip";
