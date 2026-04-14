@@ -39,7 +39,6 @@ export default defineConfig({
       "downloads",
       "nativeMessaging",
       "activeTab",
-      "scripting",
       "webNavigation",
     ],
     host_permissions: ["<all_urls>"],
